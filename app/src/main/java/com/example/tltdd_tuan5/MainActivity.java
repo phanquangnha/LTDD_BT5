@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = (ListView) findViewById(R.id.list_view);
-        items.add(new Items(" Item 1","  Information of item 1", "                                          6$",R.drawable.anh11)) ;
-        items.add(new Items(" Item 2","  Information of item 2", "                                          6$",R.drawable.anh2)) ;
-        items.add(new Items(" Item 3","  Information of item 3", "                                          6$",R.drawable.anh333)) ;
-        items.add(new Items(" Item 4","  Information of item 4", "                                          6$",R.drawable.anh4)) ;
-        items.add(new Items(" Item 5","  Information of item 5", "                                          6$",R.drawable.anh5555)) ;
+        items.add(new Items(" Gà rán KFC","  Thông tin gà rán KFC", "                                          20$",R.drawable.anh11)) ;
+        items.add(new Items(" Nước ép","  Thông tin nước ép", "                                          30$",R.drawable.anh2)) ;
+        items.add(new Items(" Bò lúc lắc","  Thông tin bò lúc lắc", "                                          90$",R.drawable.anh333)) ;
+        items.add(new Items(" Pizza","  Thông tin pizza", "                                          50$",R.drawable.anh4)) ;
+        items.add(new Items(" Bún bò Huế","  Thông tin bún bò Huế", "                                          30$",R.drawable.anh5555)) ;
 
 
         adapter = new Adapter(MainActivity.this,items);
